@@ -6,8 +6,8 @@ class ChattyStudent < Student
   end
   
   def raise_hand
-    loop do 10.times
-    super
+    loop 10.times do
+      super
     end
   end
     
